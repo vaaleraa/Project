@@ -26,6 +26,10 @@
     user:
       name: ubuntu
       group: docker
+  - name: add user to docker group
+    user:
+      name: jenkins
+      group: docker
   - name: install docker-compose
     apt: 
       name: docker-compose
