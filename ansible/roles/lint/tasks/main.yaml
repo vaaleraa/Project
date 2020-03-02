@@ -1,0 +1,6 @@
+---
+- name: install lint
+  apt:
+    update_cache: yes
+    name: ansible-lint
+    state: present
